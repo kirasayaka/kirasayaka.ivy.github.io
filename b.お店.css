@@ -1,0 +1,91 @@
+/* 全体のスタイルをリセット */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ページのベーススタイル */
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    background-color: #ffffff; 
+    padding: 20px;
+}
+
+/* ヘッダーのスタイル */
+header {
+    background-image: url('img/446857.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+/* コンテナのスタイル */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+/* 見出しのスタイル */
+h1, h2 {
+    margin-bottom: 20px;
+    color: #000000;
+}
+/* 店舗ボックスのスタイル */
+.store {
+    background: #fff2ca;  
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+/* 店舗の説明のスタイル */
+.store p {
+    margin-bottom: 10px;
+}
+/* 地図コンテナのスタイル */
+.map-container {
+    margin-top: 10px;
+}
+/* フォームのスタイル */
+form {
+    margin-top: 30px;
+}
+/* ラベルのスタイル */
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333; 
+}
+/* テキスト入力とテキストエリアのスタイル */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0; 
+}
+/* 送信ボタンのスタイル */
+button[type="submit"] {
+    background: #6fa6d6; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button[type="submit"]:hover {
+    background: #4b8ac9; /* Darker shade on hover */
+}
+/*フッターのスタイル*/
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+    background: #ffaeae;
+    color: #fff;
+}
