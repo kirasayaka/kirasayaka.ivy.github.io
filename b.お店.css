@@ -34,7 +34,7 @@ h1, h2 {
 }
 /* 店舗ボックスのスタイル */
 .store {
-    background: #fff2ca;  
+    background: #ffedcc;  
     border-radius: 5px;
     padding: 20px;
     margin-bottom: 20px;
@@ -79,13 +79,13 @@ button[type="submit"] {
     transition: background-color 0.3s ease;
 }
 button[type="submit"]:hover {
-    background: #4b8ac9; /* Darker shade on hover */
+    background: #4b8ac9; 
 }
 /*フッターのスタイル*/
 footer {
     margin-top: 20px;
     text-align: center;
     padding: 10px;
-    background: #ffaeae;
+    background: #ffcbcb;
     color: #fff;
 }
